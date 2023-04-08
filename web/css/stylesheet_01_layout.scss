@@ -1,0 +1,122 @@
+*{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px ;
+}
+
+html{
+    background-color: #ffffff;
+    height: 101%;
+}
+body{
+    width: 1200px;
+    margin: auto;
+    font-family: 'Quicksand', sans-serif;
+}
+#wrap_outer{
+    padding: 0px 30px 30px 30px;
+    margin: 0px 2px 2px 2px;
+    background-color: #f3f8f3;
+    border: 1px solid #ffffff;
+    
+}
+#wrap{
+    padding: 0px 20px 20px 20px;
+    margin: 0px 0px 0px 0px;
+    background-color: #e8f3e8; 
+    border: 1px solid #e2ece2;
+
+}
+#wrap_inner{
+    
+    padding: 0px 20px 20px 20px;
+    margin: 0px 0px 0px 0px;
+    background-color: #dae7da; 
+    border: 1px solid #d1e0d1;
+}
+#header{
+    
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
+}
+#header_outer{
+    
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
+    border: 1px solid #bbc7bb;
+    background-color: #d0ddd0;
+    @include round;
+}
+#header_inner{
+    padding:5px 5px 5px 5px;
+    margin: 0px 0px 0px 0px;
+    background-color: #fffcfc;
+    @include round;
+}
+#breadcrumbs{
+    
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
+}
+#breadcrumbs_inner{
+    
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
+    background-color: #fffcfc;
+}
+#display{
+
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0px 0px 0px;
+}
+#display_inner{
+
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
+    background-color: #f0f0f0;
+}
+#display_panel{
+
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
+    background-color: #fffcfc;
+}
+#body{
+
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0px 0px 0px;
+}
+#body_inner{
+    @include round; 
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
+}
+#container{
+    @include round; 
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
+    background-color: #fffcfc;
+}
+#afterthought{
+    
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0px 0px 0px;
+}
+#afterthought_inner{
+    
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
+    background-color: #fffcfc;
+}
+#footer{
+    @include round; 
+    padding: 10px 10px 10px 10px;
+    margin: 10px 20px 0px 20px;
+    background-color: #fffcfc;
+    border: #bbc7bb;
+}
+#footer_inner{
+    @include round; 
+    padding: 10px 20px 10px 20px;
+    margin: 0px 0px 0px 0px;
+    background-color: #fffcfc;
+}
